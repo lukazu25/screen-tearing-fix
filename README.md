@@ -2,7 +2,7 @@
 
 Go to `/usr/share/X11/xorg.conf.d` and add one of the files below for your graphics card.
 
-On BSD systems go to `/etc/X11/xorg.conf.d`
+On BSD systems go to `/etc/X11/xorg.conf.d` instead.
 
 For Intel drivers edit or create a file called “10-intel.conf” and add the following then reboot your pc:
 
