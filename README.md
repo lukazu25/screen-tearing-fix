@@ -38,7 +38,7 @@ sudo update-initramfs -u
 ```
 ### Fix mate keyboard backlight on startup 
 
-1.Open dconf-editor.
-2.Navigate to `/org/mate/power-manager/kbd-brightness-on-ac`.
-3.Uncheck "Use default value".
-4.Set "Custom value" to 0.
+1. Open dconf-editor.
+2. Navigate to `/org/mate/power-manager/kbd-brightness-on-ac`.
+3. Uncheck "Use default value".
+4. Set "Custom value" to 0.
