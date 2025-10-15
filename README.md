@@ -54,6 +54,7 @@ Enable nvidia-cuda repo
 sudo extrepo enable nvidia-cuda
 ```
 Go to `/etc/extrepo/config.yaml` and uncomment contrib and non-free
+
 Install nvidia driver 
 ```
 sudo apt install nvidia-open
