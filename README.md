@@ -44,6 +44,20 @@ sudo update-initramfs -u
 4. Set "Custom value" to 0.
 
 ### Install latest nvidia driver on debian
-1.```
+1. install extrepo package
+```
 sudo apt install extrepo
+```
+2. enable nvidia-cuda repo
+```
+sudo extrepo enable nvidia-cuda
+```
+3. go to /etc/extrepo/config.yaml and uncomment contrib and non-free
+4. install nvidia driver 
+```
+sudo apt install nvidia-open
+```
+for older cards
+```
+sudo apt install nvidia-driver
 ```
