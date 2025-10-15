@@ -42,3 +42,9 @@ sudo update-initramfs -u
 2. Navigate to `/org/mate/power-manager/kbd-brightness-on-ac`.
 3. Uncheck "Use default value".
 4. Set "Custom value" to 0.
+
+### Install latest nvidia driver on debian
+1.
+```
+sudo apt install extrepo
+```
